@@ -8,8 +8,6 @@ const app = express();
 // Define the port number
 const port = 4000;
 
-// Use the imported router for handling routes
-app.use('/', router);
 
 // Start the server
 app.listen(port, () => {
